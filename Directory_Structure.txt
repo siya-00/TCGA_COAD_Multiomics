@@ -1,0 +1,20 @@
+TCGA_COAD_Multiomics/
+├── data/
+│   ├── raw/               # Place raw data files here
+│   └── processed/         # Processed files will be saved here
+├── scripts/
+│   ├── 01_clinical.R
+│   ├── 02_mutation.R
+│   ├── 03_expression.R
+│   ├── 04_integration.R
+│   ├── 05_qc.R
+│   ├── 06_classification.R
+│   └── 07_survival.R
+├── results/
+│   ├── qc/
+│   ├── classification/
+│   └── survival/
+├── config.R               # Configuration file
+├── run_pipeline.R         # Master script to run entire pipeline
+├── requirements.R         # Package dependencies
+└── README.md
